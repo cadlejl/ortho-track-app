@@ -1,0 +1,67 @@
+Note for this version: I want to come up with the simplest useful functionality and make it work. The app needs to:
+1. List physicians
+2. List facilities
+Note: Save this one for later version 3. List product categories - maybe user created - or maybe this is too complex for simplest functionality
+4. List surgical systems - imports 
+5. Case Component - to attach to system drop log
+  a. 
+6. Surgical system component
+  a. up/down status
+  b. lives - where the system is kept
+  c. pick/drop - (facility, physician: from case component)
+  d. comments/notes 
+  e. log - scrollable field populaated by page entries with date/time
+
+
+As a user, I want:
+
+To have two categories of user:
+1.  Administrator
+2.  User
+
+from first version {
+  components:
+  Devices/Products: sets, items
+}
+
+
+**indicates possible structural unit**
+
+When a **new tray (container, or set)** or **item** is received, Administrator may enter it into the app under a **hierarchy of categories**, 
+some   optional  , some not   optional  :
+1.  System name (optional)
+Note: user must enter either system name or container/item name, or both.
+2.  Container name or item name (optional)
+3.  Container or item part number (not optional)
+
+Administrator Notes (optional)
+Note: Administrator selects from a list of modules to appear on tray pages so that they can provide as much or as little, and the 
+kind of information he requires to meet his specific needs.  This has the added benefit that the developer doesn't necessarily 
+have to kill good ideas for fear that the app will be too complex for some users.
+
+A change log including user name and date and type of change with (optional) comments
+
+missing items (text box)
+
+allocation status (surgeon (text), date (drop down), facility (text - dropdown or autocomplete)); pick/drop (drop down: 
+1. warehouse 
+2. facility 
+3. trunk  
+2 opens text box (not optional)
+
+case sheet (for cases requiring multiple systems, rep has the option to open a case sheet and apply container/item sheets to it).  
+Perhaps this should be standard protocol for every case.  Rather than applying case info on the container/item page, you allocate 
+container/item by first creating a case sheet (surgeon, facility, date/time, deliver by, etc.) and then linking container/item to 
+the case.
+
+up/down status
+
+Photo log (This could turn out to be the central feature of the app.  It's often good practice to snap pics of the instrument and 
+implant platters inside the trays as a simple and definitive record of what's in it when the tray is dropped at a facility and when 
+it is picked up.  Constant issues are: 
+1. Very expensive items go missing while the tray is in the possession of the surgical and sterile processing departments and they 
+refuse to pay for it if there's no definitive evidence it was in there;  
+2. The tray is processed and wrapped and questions arise regarding certain things that may or may not be in a tray;  
+3.  Reps drop trays for other reps and need a simple way to communicate to each other what is in the tray;  
+4. Reps are responsible for the tray having what it's supposed to have.
+The photos could be made available in the form of a link in the change log module.
