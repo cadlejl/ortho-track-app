@@ -2,15 +2,16 @@ Note for this version: I want to come up with the simplest useful functionality 
 1. List physicians
 2. List facilities
 Note: Save this one for later version 3. List product categories - maybe user created - or maybe this is too complex for simplest functionality
-4. List surgical systems - imports 
+4. List surgical systems - How does this relate to facility component?
 5. Case Component - to attach to system drop log
   a. 
 6. Surgical system component
   a. up/down status
   b. lives - where the system is kept
   c. pick/drop - (facility, physician: from case component)
+  These next two are too complicated for first version
   d. comments/notes 
-  e. log - scrollable field populaated by page entries with date/time
+  e. log - scrollable log populaated by page entries with date/time
 
 
 As a user, I want:

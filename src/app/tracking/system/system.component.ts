@@ -1,3 +1,5 @@
+//
+
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -5,11 +7,10 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './system.component.html',
   styleUrls: ['./system.component.css']
 })
-export class SystemComponent implements OnInit {
+export class SystemComponent /*implements OnInit*/ {
 
-  constructor() { }
 
-  ngOnInit() {
-  }
-
+  // constructor() { }
+  // ngOnInit() {
+  // }
 }
