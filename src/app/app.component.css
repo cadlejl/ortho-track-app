@@ -1,3 +1,5 @@
-#logoAndTitle {
-  font-size: 60px;
+#logoTitle {
+  text-align: left;
+  margin-top: 14px;
+  padding-left: 70px;
 }
