@@ -1,5 +1,40 @@
+/*** Header ***/
+.navbar {
+  background-color: #333333;
+  border: none;
+  padding: 25px 0 25px 0;
+  margin-bottom: 0;
+}
+
+.nav li {
+  font-size: 2rem;
+}
+
 #logoTitle {
-  text-align: left;
-  margin-top: 14px;
-  padding-left: 70px;
+  margin-left: -100px;
+}
+
+
+/*** Page Content ***/
+.jumbotron {
+  margin: 0 50px 0 50px;
+  height: 78%;
+  padding: 30px 40px;
+}
+
+
+/*** Footer ***/
+.footer {
+  position: relative;
+  margin-top: -150px; /* negative value of footer height */
+  height: 150px;
+  clear:both;
+  padding-top:20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: .8;
+}
+
+#wrap {
+  min-height: 20%;
 }
